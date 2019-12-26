@@ -1,0 +1,6 @@
+(load "package.lisp")
+(load "chess/errors.lisp")
+(load "chess/game/move.lisp")
+(load "chess/game/piece.lisp")
+(load "chess/game/players.lisp")
+(load "chess/game/board.lisp")
