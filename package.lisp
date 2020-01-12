@@ -3,6 +3,7 @@
 (defpackage :chess.game
    (:documentation "all things related to the gameplay")
    (:use :cl)
+   (:shadow :position)
    (:export :move-piece
             :get-piece
             :place-piece
